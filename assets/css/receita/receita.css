@@ -1,0 +1,40 @@
+.receita{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 5rem;
+    margin-top: 15px;
+    border: solid;
+    text-align: center;
+    border-color: #ff73bd;
+    font-family: 'Acme', sans-serif;
+}
+
+form label{
+    display: block;
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+
+.padrao-input{
+    display: block;
+    margin: 20px 0px 10px;
+    padding: 10px 110px;
+    width: 47%;
+}
+
+@media screen and (max-width:480px) {
+    .receita{
+        width: 400px;
+    }   
+    .padrao-input{
+        margin: 10px 10px 0px;
+        padding: 10px 160px;
+        width: 20%;
+        margin-left: 5px;
+    }
+}

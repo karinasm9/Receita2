@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible"content="ie=edge"/>
+        <title>Receitas</title>
+        <link href="./assets/css/normaliza.css" rel="stylesheet"/>
+        <link href="./assets/css/reset.css" rel="stylesheet"/>
+        <link href="./assets/css/cabecalho.css" rel="stylesheet"/>
+        <link href="./assets/css/menu/menu-lista.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-item.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-link.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-titulo.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-imagem.css" rel="stylesheet" />
+        <link href="./assets/css/sobre/sobre.css" rel="stylesheet"/>
+        <link href="./assets/css/sobre/sobre-descr.css" rel="stylesheet"/>
+        <link href="./assets/css/categorias.css" rel="stylesheet" >
+        <link href="assets/css/categoria/categoria-botão.css" rel="stylesheet"/>
+        <link href="assets/css/categoria/categoria-descricao.css" rel="stylesheet"/>
+        <link href="assets/css/categoria/categoria-imagem.css" rel="stylesheet"/>
+        <link href="assets/css/categoria/categoria-titulo.css" rel="stylesheet"/>
+        <link href="assets/css/categoria/categoria.conteudo.css" rel="stylesheet"/>
+        <link href="assets/css/categoria/categoria.css" rel="stylesheet"/>
+        <link href="assets/css/receita/receita.css" rel="stylesheet" />
+        <link href="assets/css/receita/titulo.css" rel="stylesheet" />
+        <link href="assets/css/receita/botao-enviar.css" rel="stylesheet" />
+
+        <link href="assets/css/rodape/contatos.css" rel="stylesheet"/>
+        <link href="assets/css/rodape/copy.css" rel="stylesheet"/>
+        <link href="assets/css/rodape/icones-img.css" rel="stylesheet"/>
+        <link href="assets/css/rodape/icones.css" rel="stylesheet"/>
+        <link href="assets/css/rodape.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <img class="logo" alt="Faça Facil" src="./assets/img/logo.png" >
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link ativo" href="#">Início</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Enviar Receita</a></li>
+                    <li class="menu__item"><a class="menu__link" href="cadastro.html">Cadastrar / Entrar</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="banner">
+            <img class="banner__imagem" src="./assets/img/banner.png">
+        </section>
+
+        <section class="sobre">
+            <p class="sobre__descricao">São receitas incrivelmente saborosas e fáceis de fazer que vão deixar sua vida muito mais simples e gostosa. <br>
+            São doces, carnes, massas, saladas, lanches e aperitivos que podem transformar <br> sua experiência na cozinha.</p>
+        </section>
+
+        <section class="categorias">
+            <div class="categoria">
+                <img alt="aperitivo"  class="categoria__imagem" src="./assets/img/aperitivos.png">
+                <div class="categoria__conteudo">
+                    <h4 class="categoria__titulo">Aperitivos</h4>
+                    <a href="aperitivos.html"> <button class="categoria__botao">Ver Mais</button></a>
+                </div>
+            </div>
+            <div class="categoria">
+                <img alt="bebida" class="categoria__imagem" src="./assets/img/bebidas.png">
+                <div class="categoria__conteudo">
+                    <h4 class="categoria__titulo">Bebidas</h4>
+                    <a href="bebidas.html"><button class="categoria__botao">Ver Mais</button></a>
+                </div>
+            </div>
+            <div class="categoria">
+                <img alt="bolos" class="categoria__imagem" src="./assets/img/bolos.png">
+                <div class="categoria__conteudo">
+                    <h4 class="categoria__titulo">Bolos</h4>
+                    <a href="bolo.html"><button class="categoria__botao">Ver Mais</button></a>
+                </div>
+            </div> 
+            <div class="categoria">
+                <img alt="lanches" class="categoria__imagem" src="./assets/img/lanches.png">
+                <div class="categoria__conteudo">
+                    <h4 class="categoria__titulo">Lanches</h4>
+                    <a href="lanches.html"><button class="categoria__botao">Ver Mais</button></a>
+                </div>
+            </div>
+            <div class="categoria">
+                <img alt="massas" class="categoria__imagem" src="./assets/img/massas.png">
+                <div class="categoria__conteudo">
+                    <h4 class="categoria__titulo">Massas</h4>
+                   <a href="massas.html"> <button class="categoria__botao">Ver Mais</button></a>
+                </div>
+            </div>
+            <div class="categoria">
+                <img alt="molhos" class="categoria__imagem" src="./assets/img/molhos.png">
+                <div class="categoria__conteudo">
+                    <h4 class="categoria__titulo">Molhos</h4>
+                    <a href="molhos.html"><button class="categoria__botao">Ver Mais</button></a>
+                </div>
+            </div>
+            <div class="categoria">
+                <img alt="pao" class="categoria__imagem" src="./assets/img/pão.png">
+                <div class="categoria__conteudo">
+                    <h4 class="categoria__titulo">Pao</h4>
+                    <a href="pao.html"><button class="categoria__botao">Ver Mais</button></a>
+                </div>
+            </div> 
+            <div class="categoria">
+                <img alt="sobremesas" class="categoria__imagem" src="./assets/img/sobremesas.png">
+                <div class="categoria__conteudo">
+                    <h4 class="categoria__titulo">Sobremesas</h4>
+                    <a href="sobremesas.html"><button class="categoria__botao">Ver Mais</button></a>
+                </div>
+            </div>
+            <div class="categoria">
+                <img alt="sopas" class="categoria__imagem" src="./assets/img/sopas.png">
+                <div class="categoria__conteudo">
+                    <h4 class="categoria__titulo">Sopas</h4>
+                    <a href="sopas.html"><button class="categoria__botao">Ver Mais</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="receita">
+            <form>
+                <p class="titulo">Enviar Minha Receita</p>
+                <label for="Nome">Nome Completo:</label>
+                <input type="text" id="nome" class="padrao-input" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" class="padrao-input" required>
+
+                <label for="mensagem">Receita</label>
+                <textarea cols="50" rows="10" id="mensagem" placeholder="Escreva aqui sua receita"></textarea> 
+
+                <label><input type="checkbox"> Autorizo publicar minha receita</label>
+                <input type="submit" value="ENVIAR" class="enviar">
+            </form>
+
+        </section>
+
+        
+        <footer>
+            <div class="rodape">
+                <h2>Siga nosso Instagram: @melhores_receitas</h2>
+                <img class="logo__rodape" alt="Faça Facil" src="./assets/img/logo.png" >
+                <p class="copy">&copy; Melhores Receitas - 2022</p>
+            </div>
+        </footer>
+
+    </body>
+</html>

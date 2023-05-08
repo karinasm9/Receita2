@@ -1,0 +1,14 @@
+.menu__link{
+    display: block;
+    color: #333333;
+    font-size: 20px;
+    margin-right: 1.25rem;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+
+menu-link:hover  {
+    text-decoration: underline;
+    color: fuchsia;
+}

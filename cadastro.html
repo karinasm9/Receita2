@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible"content="ie=edge"/>
+        <title>cadastro</title>
+        <link href="./assets/css/normaliza.css" rel="stylesheet"/>
+        <link href="./assets/css/reset.css" rel="stylesheet"/>
+        <link href="./assets/css/cabecalho.css" rel="stylesheet"/>
+        <link href="./assets/css/menu/menu-lista.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-item.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-link.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-titulo.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-imagem.css" rel="stylesheet" />
+        <link href="assets/css/cadastro/sobre.css" rel="stylesheet" />
+        <link href="assets/css/cadastro/botão.css" rel="stylesheet" />
+        <link href="assets/css/cadastro/entrar.css" rel="stylesheet" />
+        <link href="assets/css/cadastro/cadastro.css" rel="stylesheet" />
+
+        <link href="assets/css/rodape/contatos.css" rel="stylesheet"/>
+        <link href="assets/css/rodape/copy.css" rel="stylesheet"/>
+        <link href="assets/css/rodape/icones-img.css" rel="stylesheet"/>
+        <link href="assets/css/rodape/icones.css" rel="stylesheet"/>
+        <link href="assets/css/rodape.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <img class="logo" alt="Faça Facil" src="./assets/img/logo.png" >
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link ativo" href="index.html">Início</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Enviar Receita</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Cadastrar / Entrar</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="banner">
+            <img class="banner__imagem" src="./assets/img/banner.png">
+        </section>
+
+        <section class="sobre">
+            <h1 class="sobre__descricao">Bem Vindo! <br> </h1>
+        </section>
+
+        <section class="entrar">
+            <form>
+                <p class="titulo">Fazer Login</p>
+                <label for="email">Email:</label>
+                <input type="text" id="email" class="padrao-input" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" class="padrao-input" required>
+
+                <input type="submit" value="ENTRAR" class="enviar">
+            </form>
+        </section>
+
+        <h3>OU </h3>
+
+        <section class="cadastro">
+            <form>
+                <p class="titulo">Cadastrar</p>
+                <label for="Nome">Nome Completo:</label>
+                <input type="text" id="nome" class="padrao-input" required>
+
+                <label for="data">Data de Nascimento:</label>
+                <input type="date" id="data" class="padrao-input" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" class="padrao-input" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" class="padrao-input" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" class="padrao-input" required placeholder="(xx)xxxxx-xxxx">
+
+                <input type="submit" value="ENVIAR" class="enviar">
+
+            </form>
+        </section>
+
+        <footer>
+            <div class="rodape">
+                <h2>Siga nosso Instagram: @melhores_receitas</h2>
+                <img class="logo__rodape" alt="Faça Facil" src="./assets/img/logo.png" >
+                <p class="copy">&copy; Melhores Receitas - 2022</p>
+            </div>
+        </footer>
+
+    </body>
+</html>

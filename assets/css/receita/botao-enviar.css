@@ -1,0 +1,18 @@
+.enviar{
+    width: 18%;
+    padding: 12px 0;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 80px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.enviar:hover{
+    background: #ff73bd;
+    transform: scale(1.2);
+}

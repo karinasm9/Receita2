@@ -1,0 +1,24 @@
+.listas {
+    background: #faf0f6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (min-width: 0) {
+    .listas {
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .listas {
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .listas {
+        padding: 5rem 0 0 5rem;
+    }
+}
